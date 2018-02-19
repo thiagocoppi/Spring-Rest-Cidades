@@ -16,3 +16,8 @@ Para funcionar deverá renomear o CSV para cidades.csv
     - Rota ("/count") com GET, irá retornar a quantidade de cidades de todos os estados
     - Rota ("/estadomaiormenor") com GET, irá retornar o maior estado e o menor estado
     - Rota ("/populardb") com GET, irá popular o database com base no csv cidades.csv no desktop
+
+* Pontos de melhoria;
+  - Necessidade de implementar busca do CSV pela requisição (está realizando a busca no desktop)
+  - Ajuste no enumerador estado (Está "poluindo" o controller)
+  - Ajuste na query de buscar quantidade por estado (Está com objeto genérico)
